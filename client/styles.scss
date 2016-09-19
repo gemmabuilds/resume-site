@@ -1,0 +1,33 @@
+.container-home {
+    text-align: center;
+
+    .typed-banner {
+        font-family: "Courier New";
+        font-size: 40px;
+    }    
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1.2s infinite;
+    -moz-animation: blink 1.2s infinite;
+    animation: blink 1.2s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    49% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    49% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    49% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
